@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import html2canvas from 'html2canvas'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import './App.css'
 
 function App() {
@@ -330,6 +331,7 @@ Your session with English with Priya is confirmed!`
           <p>&copy; 2026 Personal Coaching. All rights reserved.</p>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   )
 }
